@@ -1,0 +1,13 @@
+server:
+  port: 8190
+  tomcat:
+      uri-encoding: UTF-8
+  servlet:
+    context-path: /jvm/one
+
+
+# 系统自带日志打印级别设置
+logging:
+  level.com.zbq: debug
+  file: jvm-progress-one.log
+
